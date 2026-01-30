@@ -1,2 +1,2 @@
-#Personal Dotfiles
+# Personal Dotfiles
 Working on it B)
