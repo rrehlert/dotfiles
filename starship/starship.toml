@@ -7,7 +7,9 @@ palette = "catppuccin_mocha"
 
 add_newline = false
 # A minimal left prompt
-#format = """$directory$character"""
+# format = """$directory$character"""
+# right_format = """$all"""
+
 # This format string effectively "disables" everything else by omission.
 format = """
 $directory\
