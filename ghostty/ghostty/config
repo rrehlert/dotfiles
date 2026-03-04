@@ -1,3 +1,28 @@
-theme = catppuccin-mocha.conf
+theme = Catppuccin Mocha
 
 font-family = JetBrains Mono
+shell-integration-features = ssh-env
+
+# --- Split Creation ---
+# Cmd + - for horizontal split (stacked top/bottom)
+keybind = cmd+-=new_split:down
+
+# Cmd + + for vertical split (side-by-side left/right)
+# Note: On standard US keyboards, "+" is "Shift + =", so we use that exact trigger
+keybind = cmd+equal=new_split:right
+
+# --- Split Navigation (Vim Style) ---
+keybind = cmd+h=goto_split:left
+keybind = cmd+j=goto_split:down
+keybind = cmd+k=goto_split:up
+keybind = cmd+l=goto_split:right
+
+# --- Font Size Zooming (Zoom In / Out) ---
+# Cmd + Shift + = (Zoom In)
+keybind = cmd+shift+equal=increase_font_size:1
+
+# Cmd + Shift + - (Zoom Out)
+keybind = cmd+shift+-=decrease_font_size:1
+
+# Optional: Cmd + Shift + 0 to reset the font size back to default
+keybind = cmd+shift+0=reset_font_size
