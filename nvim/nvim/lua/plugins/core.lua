@@ -14,5 +14,17 @@ return {
     opts = {
       colorscheme = "catppuccin",
     }
+  },
+  {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+      pickers = {
+        find_files = {
+          hidden = true,
+          no_ignore = true,
+          follow = true,
+        },
+      },
+    },
   }
 }

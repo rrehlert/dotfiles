@@ -1,0 +1,16 @@
+# Always group directories at the top
+sorting:
+  dir-grouping: first
+
+# Make sure icons are always enabled
+icons:
+  when: always
+  theme: fancy
+  separator: " "
+
+# Display sizes in human-readable format by default
+size: default
+
+# Date formatting (uses standard strftime formats)
+# 'date' uses the default format. Can also use a custom string like '+%Y-%m-%d %H:%M'
+date: date

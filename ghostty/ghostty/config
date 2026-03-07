@@ -26,3 +26,5 @@ keybind = cmd+shift+-=decrease_font_size:1
 
 # Optional: Cmd + Shift + 0 to reset the font size back to default
 keybind = cmd+shift+0=reset_font_size
+
+window-save-state = always
