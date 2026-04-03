@@ -310,7 +310,7 @@ format = "[$symbol$version]($style) "
 symbol = "󰏗 "
 
 [python]
-format = "[$symbol$version]($style) "
+format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
 symbol = " "
 
 [rlang]
